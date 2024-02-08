@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "itemcount-marketplace",
+    "slug": "itemcount-marketplace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "Inter-Black": ["./assets/fonts/Inter-Black.ttf"],
+          "Inter-Bold": ["./assets/fonts/Inter-Bold.ttf"],
+          "Inter-ExtraBold": ["./assets/fonts/Inter-ExtraBold.ttf"],
+          "Inter-ExtraLight": ["./assets/fonts/Inter-ExtraLight.ttf"],
+          "Inter-Light": ["./assets/fonts/Inter-Light.ttf"],
+          "Inter-Medium": ["./assets/fonts/Inter-Medium.ttf"],
+          "Inter-Regular": ["./assets/fonts/Inter-Regular.ttf"],
+          "Inter-SemiBold": ["./assets/fonts/Inter-SemiBold.ttf"],
+          "Inter-Thin": ["./assets/fonts/Inter-Thin.ttf"]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
